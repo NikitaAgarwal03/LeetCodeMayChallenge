@@ -16,4 +16,5 @@ class Solution(object):
                 index = k
                 break
             k += 1
-        return index 
+        return index
+
