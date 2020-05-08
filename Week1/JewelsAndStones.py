@@ -7,3 +7,4 @@ class Solution(object):
         """
         count = sum(s in J for s in S)
         return count
+
