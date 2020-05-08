@@ -15,3 +15,4 @@ class Solution(object):
         binstr=str(y)
         output = int(binstr,2)
         return output
+
