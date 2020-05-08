@@ -15,3 +15,4 @@ class Solution(object):
             if(count > (len(nums)/2)):
                 majority= num
                 return majority
+
