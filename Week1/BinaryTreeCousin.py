@@ -31,3 +31,4 @@ class Solution(object):
 
         dfs(root, None, x, y, 0)
         return self.xDepth == self.yDepth and self.xParent != self.yParent
+
