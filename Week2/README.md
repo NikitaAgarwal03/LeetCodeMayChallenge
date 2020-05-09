@@ -17,3 +17,16 @@ Constraints:</br>
 <li>-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4</li></br>
 <li>coordinates contains no duplicate point.</li></br>
 </ul>
+
+<strong>9 May Challenge</strong></br>
+Given a positive integer num, write a function which returns True if num is a perfect square else False.
+
+Note: Do not use any built-in library function such as sqrt.
+
+Example 1:</br>
+Input: 16</br>
+Output: true</br>
+
+Example 2:</br>
+Input: 14</br>
+Output: false</br>
