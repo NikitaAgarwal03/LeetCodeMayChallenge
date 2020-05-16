@@ -127,3 +127,22 @@ Example 3:</br>
 Input: num = "10", k = 2</br>
 Output: "0"</br>
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.</br>
+
+<strong>14 May Challenge</strong></br>
+Implement a trie with insert, search, and startsWith methods.</br>
+
+Example:</br>
+
+Trie trie = new Trie();</br>
+
+trie.insert("apple");</br>
+trie.search("apple");   // returns true</br>
+trie.search("app");     // returns false</br>
+trie.startsWith("app"); // returns true</br>
+trie.insert("app");   </br>
+trie.search("app");     // returns true</br>
+
+Note:</br>
+
+You may assume that all inputs are consist of lowercase letters a-z.</br>
+All inputs are guaranteed to be non-empty strings.</br>
