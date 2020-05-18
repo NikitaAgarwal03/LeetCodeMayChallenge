@@ -64,20 +64,20 @@ Strings consists of lowercase English letters only and the length of both string
 The order of output does not matter.</br>
 
 Example 1:</br>
-Input:</br>
+<b>Input:</br></b>
 s: "cbaebabacd" p: "abc"</br>
-Output:</br>
+<b>Output:</br></b>
 [0, 6]</br>
-Explanation:</br>
+<b>Explanation:</br></b>
 The substring with start index = 0 is "cba", which is an anagram of "abc".</br>
 The substring with start index = 6 is "bac", which is an anagram of "abc".</br>
 
 Example 2:</br>
-Input:</br>
+<b>Input:</br></b>
 s: "abab" p: "ab"</br>
-Output:</br>
+<b>Output:</br></b>
 [0, 1, 2]</br>
-Explanation:</br>
+<b>Explanation:</br></b>
 The substring with start index = 0 is "ab", which is an anagram of "ab".</br>
 The substring with start index = 1 is "ba", which is an anagram of "ab".</br>
 The substring with start index = 2 is "ab", which is an anagram of "ab".</br>
