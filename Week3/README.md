@@ -55,3 +55,29 @@ Output: 2->3->6->7->1->5->4->NULL</br>
 Note:
 1. The relative order inside both the even and odd groups should remain as it was in the input.
 2. The first node is considered odd, the second node even and so on ...
+
+<strong>17 May Challenge</strong></br>
+Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
+
+The order of output does not matter.</br>
+
+Example 1:</br>
+<b>Input:</br></b>
+s: "cbaebabacd" p: "abc"</br>
+<b>Output:</br></b>
+[0, 6]</br>
+<b>Explanation:</br></b>
+The substring with start index = 0 is "cba", which is an anagram of "abc".</br>
+The substring with start index = 6 is "bac", which is an anagram of "abc".</br>
+
+Example 2:</br>
+<b>Input:</br></b>
+s: "abab" p: "ab"</br>
+<b>Output:</br></b>
+[0, 1, 2]</br>
+<b>Explanation:</br></b>
+The substring with start index = 0 is "ab", which is an anagram of "ab".</br>
+The substring with start index = 1 is "ba", which is an anagram of "ab".</br>
+The substring with start index = 2 is "ab", which is an anagram of "ab".</br>
