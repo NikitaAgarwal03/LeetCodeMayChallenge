@@ -101,3 +101,61 @@ Note:</br>
 
 The input strings only contain lower case letters.</br>
 The length of both given strings is in range [1, 10,000].</br>
+
+<strong>19 May Challenge</strong></br>
+Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock's price for the current day.</br>
+
+The span of the stock's price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today's price.</br>
+
+For example, if the price of a stock over the next 7 days were [100, 80, 60, 70, 60, 75, 85], then the stock spans would be [1, 1, 1, 2, 1, 4, 6].</br>
+
+ 
+
+Example 1:</br>
+Input: ["StockSpanner","next","next","next","next","next","next","next"], [[],[100],[80],[60],[70],[60],[75],[85]]</br>
+Output: [null,1,1,1,2,1,4,6]</br>
+Explanation: </br>
+First, S = StockSpanner() is initialized.  Then:</br>
+S.next(100) is called and returns 1,</br>
+S.next(80) is called and returns 1,</br>
+S.next(60) is called and returns 1,</br>
+S.next(70) is called and returns 2,</br>
+S.next(60) is called and returns 1,</br>
+S.next(75) is called and returns 4,</br>
+S.next(85) is called and returns 6.</br>
+
+Note that (for example) S.next(75) returned 4, because the last 4 prices</br>
+(including today's price of 75) were less than or equal to today's price.</br>
+ 
+
+Note:</br>
+
+1. Calls to StockSpanner.next(int price) will have 1 <= price <= 10^5.</br>
+2. There will be at most 10000 calls to StockSpanner.next per test case.</br>
+3. There will be at most 150000 calls to StockSpanner.next across all test cases.</br>
+3. The total time limit for this problem has been reduced by 75% for C++, and 50% for all other languages.</br>
+
+
+
+<strong>20 May Challenge</strong></br>
+Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.</br>
+
+ 
+
+Example 1:</br>
+Input: root = [3,1,4,null,2], k = 1</br>
+Output: 1</br>
+
+Example 2:</br>
+Input: root = [5,3,6,2,4,null,null,1], k = 3</br>
+Output: 3</br>
+
+Follow up:</br>
+What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?</br>
+
+ 
+
+Constraints:</br>
+
+The number of elements of the BST is between 1 to 10^4.</br>
+You may assume k is always valid, 1 ≤ k ≤ BST's total elements.</br>
